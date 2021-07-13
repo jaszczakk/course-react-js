@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  flex-grow: 1;
+}
+
+a {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: aliceblue;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+}
+
+a:hover {
+  color: yellow;
+}
+
+section {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.active {
+  border-bottom-color: yellow;
+}
+
+.home_selected {
+  border-bottom-color: orange;
+}
+
+.news_selected {
+  border-bottom-color: palevioletred;
+}
+
+.contact_selected {
+  border-bottom-color: red;
+}

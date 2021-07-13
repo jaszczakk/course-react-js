@@ -1,0 +1,26 @@
+.login button {
+  padding: 5px 20px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  background-color: white;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.login label {
+  margin-bottom: 10px;
+}
+
+.login input {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding: 3px;
+  max-width: 350px;
+  float: right;
+}
+
+.login div {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

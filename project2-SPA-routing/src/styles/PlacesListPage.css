@@ -1,0 +1,22 @@
+.places h3 {
+  margin-bottom: 20px;
+}
+
+.places ul {
+  list-style: square;
+  padding-left: 30px;
+}
+
+.places li {
+  margin-bottom: 20px;
+}
+
+.places a {
+  text-decoration: none;
+  color: #333;
+}
+
+.places a:hover {
+  text-decoration: underline;
+  color: black;
+}
